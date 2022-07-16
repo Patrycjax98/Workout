@@ -17,6 +17,7 @@ main{
 .top_section{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 70px 15px;
     height: 100px;
 }
@@ -28,7 +29,8 @@ main{
 .bars{
     display: flex;
     font-size: 25px;
-    margin-left: 100px;
+    margin-right: 20px;
+    cursor: pointer;
  }
 .link{
     display: flex;

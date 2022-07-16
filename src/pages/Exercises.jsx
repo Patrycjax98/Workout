@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import SearchExercise from "../components/SearchExercise";
 
 
-const AtlasWorkout = () => {
+const Exercises = () => {
     return (
         <div>
             <SearchExercise/>
@@ -10,4 +10,4 @@ const AtlasWorkout = () => {
     )
 }
 
-export default AtlasWorkout;
+export default Exercises;

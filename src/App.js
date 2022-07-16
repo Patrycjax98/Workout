@@ -5,7 +5,7 @@ import Sidebar from "./components/Sidebar";
 import Navbar from "./components/Navbar"
 import Overview from "./pages/Overview";
 import Plan from "./pages/Plan";
-import AtlasWorkout from "./pages/AtlasWorkout";
+import Exercises from "./pages/Exercises";
 import Home from "./pages/Home";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path='/home'element={<Home/>}/>
           <Route path='/overview'element={<Overview/>}/>
           <Route path='/plan'element={<Plan/>}/>
-          <Route path='/atlasWorkout'element={<AtlasWorkout/>}/>
+          <Route path='/exercises'element={<Exercises/>}/>
       </Routes>
       </Sidebar>
        </div>

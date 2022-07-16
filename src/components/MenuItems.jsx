@@ -20,8 +20,8 @@ export const menuItem=[
         icon:<BsPencilSquare/>
     },
     {
-        path:'/atlasWorkout',
-        name:'Atlas Workout',
+        path:'/exercises',
+        name:'Exercises',
         icon:<GiMuscleUp/>
     }
 ]
