@@ -1,12 +1,9 @@
 import React from "react";
-import SearchExercise from "../components/SearchExercise";
-
+import ExerciseNav from "../components/exercises/ExerciseNav";
 
 const Exercises = () => {
     return (
-        <div>
-            <SearchExercise/>
-        </div>
+        <ExerciseNav/>
     )
 }
 

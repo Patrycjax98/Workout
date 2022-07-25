@@ -1,0 +1,49 @@
+.plan_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 100px);
+}
+.OwnPlan_style{
+    background-color: var(--secondary-background-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.PreMadePlan_style {
+    background-color: var(--secondary-background-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.plan_icon{
+    font-size: 200px;
+    color: var(--buttons-color);
+}
+.plan_text {
+    color: var(--main-text-color);
+    font-weight: 100;
+    font-size: 40px;
+}
+.PreMadePlan_style:hover {
+    font-weight: bold;
+    border: 5px solid var(--buttons-color);
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.OwnPlan_style:hover {
+    font-weight: bold;
+    border: 5px solid var(--buttons-color);
+    border-radius: 20px;
+    transition: all 0.5s;
+}

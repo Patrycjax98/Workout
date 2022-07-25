@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "body_part": "legs",
+      "img_part": "BodyPart/legs.png"
+    },
+    {
+      "body_part": "arm",
+      "img_part": "BodyPart/arm.png"
+    },
+    {
+      "body_part": "abs",
+      "img_part": "BodyPart/abs.png"
+    },
+    {
+      "body_part": "back",
+      "img_part": "BodyPart/back.png"
+    },
+    {
+      "body_part": "biceps",
+      "img_part": "BodyPart/biceps.png"
+    },
+    {
+      "body_part": "chest",
+      "img_part": "BodyPart/chest.png"
+    },
+    {
+      "body_part": "forearm",
+      "img_part": "BodyPart/forearm.png"
+    },
+    {
+      "body_part": "triceps",
+      "img_part": "BodyPart/triceps.png"
+    }
+  ]
+}

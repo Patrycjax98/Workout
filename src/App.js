@@ -7,6 +7,8 @@ import Overview from "./pages/Overview";
 import Plan from "./pages/Plan";
 import Exercises from "./pages/Exercises";
 import Home from "./pages/Home";
+import OwnPlan from "./components/plans/OwnPlan";
+import PreMadePlan from "./components/plans/PreMadePlan";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path='/overview'element={<Overview/>}/>
           <Route path='/plan'element={<Plan/>}/>
           <Route path='/exercises'element={<Exercises/>}/>
+          <Route path='/plan/OwnPlan'element={<OwnPlan/>}/>
+          <Route path='/plan/PreMadePlan'element={<PreMadePlan/>}/>
       </Routes>
       </Sidebar>
        </div>
