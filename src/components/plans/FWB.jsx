@@ -7,6 +7,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import ButtonActivate from "./ButtonActivate";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {
@@ -51,32 +52,38 @@ const rows = [
 
 const FWB = () => {
     return (
-        <TableContainer component={Paper} style={{borderRadius: 20, border: "3px solid #FFFFFF"}}>
-            <Table sx={{ minWidth: 700 }} aria-label="customized table">
-                <TableHead>
-                    <TableRow>
-                        <StyledTableCell>FWB</StyledTableCell>
-                        <StyledTableCell align="right">1 Series</StyledTableCell>
-                        <StyledTableCell align="right">2 Series</StyledTableCell>
-                        <StyledTableCell align="right">3 Series</StyledTableCell>
-                        <StyledTableCell align="right">4 Series</StyledTableCell>
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    {rows.map((row) => (
-                        <StyledTableRow key={row.name}>
-                            <StyledTableCell component="th" scope="row">
-                                {row.name}
-                            </StyledTableCell>
-                            <StyledTableCell align="right">{row.firstSeries}</StyledTableCell>
-                            <StyledTableCell align="right">{row.secondSeries}</StyledTableCell>
-                            <StyledTableCell align="right">{row.thirdSeries}</StyledTableCell>
-                            <StyledTableCell align="right">{row.fourthSeries}</StyledTableCell>
-                        </StyledTableRow>
-                    ))}
-                </TableBody>
-            </Table>
-        </TableContainer>
+        <div style={{display:'flex', flexDirection: 'column', alignItems:'center'}}>
+            <TableContainer component={Paper} style={{borderRadius: 20, border: "3px solid #FFFFFF"}}>
+                <Table sx={{ minWidth: 700 }} aria-label="customized table">
+                    <TableHead>
+                        <TableRow>
+                            <StyledTableCell>FWB</StyledTableCell>
+                            <StyledTableCell align="center">1 Series</StyledTableCell>
+                            <StyledTableCell align="center">2 Series</StyledTableCell>
+                            <StyledTableCell align="center">3 Series</StyledTableCell>
+                            <StyledTableCell align="center">4 Series</StyledTableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        {rows.map((row) => (
+                            <StyledTableRow key={row.name}>
+                                <StyledTableCell component="th" scope="row">
+                                    {row.name}
+                                </StyledTableCell>
+                                <StyledTableCell align="center">{row.firstSeries}</StyledTableCell>
+                                <StyledTableCell align="center">{row.secondSeries}</StyledTableCell>
+                                <StyledTableCell align="center">{row.thirdSeries}</StyledTableCell>
+                                <StyledTableCell align="center">{row.fourthSeries}</StyledTableCell>
+                            </StyledTableRow>
+                        ))}
+                    </TableBody>
+                </Table>
+            </TableContainer>
+            <div style={{marginTop:'50px'}}>
+                <ButtonActivate/>
+            </div>
+        </div>
+
     );
 }
 

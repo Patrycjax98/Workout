@@ -13,7 +13,7 @@ import FWB from "./components/plans/FWB";
 import Training5x5 from "./components/plans/Training5x5";
 import PushPullLegs from "./components/plans/PushPullLegs";
 import HomeWorkout from "./components/plans/HomeWorkout";
-import AddExercise from "./components/plans/AddExercise";
+
 
 function App() {
   return (
@@ -33,7 +33,6 @@ function App() {
           <Route path='/plan/PreMadePlan/Training5x5'element={<Training5x5/>}/>
           <Route path='/plan/PreMadePlan/PushPullLegs'element={<PushPullLegs/>}/>
           <Route path='/plan/PreMadePlan/HomeWorkout'element={<HomeWorkout/>}/>
-          <Route path='/plan/OwnPlan/AddExercise'element={<AddExercise/>}/>
 
       </Routes>
       </Sidebar>

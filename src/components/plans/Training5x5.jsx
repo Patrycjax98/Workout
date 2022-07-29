@@ -8,6 +8,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import './Plan.css'
+import ButtonActivate from "./ButtonActivate";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {
@@ -65,17 +66,17 @@ const planC = [
 
 const Training5x5 = () => {
     return (
-       <div>
+       <div style={{display:'flex', flexDirection: 'column', alignItems:'center'}}>
         <TableContainer component={Paper} style={{ overflowy: 'scroll', height: '210px', marginBottom: 30, borderRadius: 20, border: "3px solid #FFFFFF"}}>
             <Table sx={{ minWidth: 700 }} aria-label="customized table">
                 <TableHead>
                     <TableRow className='row'>
                         <StyledTableCell>Training 5x5- Plan A</StyledTableCell>
-                        <StyledTableCell align="right">1 Series</StyledTableCell>
-                        <StyledTableCell align="right">2 Series</StyledTableCell>
-                        <StyledTableCell align="right">3 Series</StyledTableCell>
-                        <StyledTableCell align="right">4 Series</StyledTableCell>
-                        <StyledTableCell align="right">5 Series</StyledTableCell>
+                        <StyledTableCell align="center">1 Series</StyledTableCell>
+                        <StyledTableCell align="center">2 Series</StyledTableCell>
+                        <StyledTableCell align="center">3 Series</StyledTableCell>
+                        <StyledTableCell align="center">4 Series</StyledTableCell>
+                        <StyledTableCell align="center">5 Series</StyledTableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -84,11 +85,11 @@ const Training5x5 = () => {
                             <StyledTableCell component="th" scope="row">
                                 {row.name}
                             </StyledTableCell>
-                            <StyledTableCell align="right">{row.firstSeries}</StyledTableCell>
-                            <StyledTableCell align="right">{row.secondSeries}</StyledTableCell>
-                            <StyledTableCell align="right">{row.thirdSeries}</StyledTableCell>
-                            <StyledTableCell align="right">{row.fourthSeries}</StyledTableCell>
-                            <StyledTableCell align="right">{row.fifthSeries}</StyledTableCell>
+                            <StyledTableCell align="center">{row.firstSeries}</StyledTableCell>
+                            <StyledTableCell align="center">{row.secondSeries}</StyledTableCell>
+                            <StyledTableCell align="center">{row.thirdSeries}</StyledTableCell>
+                            <StyledTableCell align="center">{row.fourthSeries}</StyledTableCell>
+                            <StyledTableCell align="center">{row.fifthSeries}</StyledTableCell>
                         </StyledTableRow>
                     ))}
                 </TableBody>
@@ -99,11 +100,11 @@ const Training5x5 = () => {
                    <TableHead>
                        <TableRow>
                            <StyledTableCell>Training 5x5- Plan B</StyledTableCell>
-                           <StyledTableCell align="right">1 Series</StyledTableCell>
-                           <StyledTableCell align="right">2 Series</StyledTableCell>
-                           <StyledTableCell align="right">3 Series</StyledTableCell>
-                           <StyledTableCell align="right">4 Series</StyledTableCell>
-                           <StyledTableCell align="right">5 Series</StyledTableCell>
+                           <StyledTableCell align="center">1 Series</StyledTableCell>
+                           <StyledTableCell align="center">2 Series</StyledTableCell>
+                           <StyledTableCell align="center">3 Series</StyledTableCell>
+                           <StyledTableCell align="center">4 Series</StyledTableCell>
+                           <StyledTableCell align="center">5 Series</StyledTableCell>
                        </TableRow>
                    </TableHead>
                    <TableBody>
@@ -112,11 +113,11 @@ const Training5x5 = () => {
                                <StyledTableCell component="th" scope="row">
                                    {row.name}
                                </StyledTableCell>
-                               <StyledTableCell align="right">{row.firstSeries}</StyledTableCell>
-                               <StyledTableCell align="right">{row.secondSeries}</StyledTableCell>
-                               <StyledTableCell align="right">{row.thirdSeries}</StyledTableCell>
-                               <StyledTableCell align="right">{row.fourthSeries}</StyledTableCell>
-                               <StyledTableCell align="right">{row.fifthSeries}</StyledTableCell>
+                               <StyledTableCell align="center">{row.firstSeries}</StyledTableCell>
+                               <StyledTableCell align="center">{row.secondSeries}</StyledTableCell>
+                               <StyledTableCell align="center">{row.thirdSeries}</StyledTableCell>
+                               <StyledTableCell align="center">{row.fourthSeries}</StyledTableCell>
+                               <StyledTableCell align="center">{row.fifthSeries}</StyledTableCell>
                            </StyledTableRow>
                        ))}
                    </TableBody>
@@ -127,11 +128,11 @@ const Training5x5 = () => {
                    <TableHead>
                        <TableRow>
                            <StyledTableCell>Training 5x5- Plan C</StyledTableCell>
-                           <StyledTableCell align="right">1 Series</StyledTableCell>
-                           <StyledTableCell align="right">2 Series</StyledTableCell>
-                           <StyledTableCell align="right">3 Series</StyledTableCell>
-                           <StyledTableCell align="right">4 Series</StyledTableCell>
-                           <StyledTableCell align="right">5 Series</StyledTableCell>
+                           <StyledTableCell align="center">1 Series</StyledTableCell>
+                           <StyledTableCell align="center">2 Series</StyledTableCell>
+                           <StyledTableCell align="center">3 Series</StyledTableCell>
+                           <StyledTableCell align="center">4 Series</StyledTableCell>
+                           <StyledTableCell align="center">5 Series</StyledTableCell>
                        </TableRow>
                    </TableHead>
                    <TableBody>
@@ -140,16 +141,19 @@ const Training5x5 = () => {
                                <StyledTableCell component="th" scope="row">
                                    {row.name}
                                </StyledTableCell>
-                               <StyledTableCell align="right">{row.firstSeries}</StyledTableCell>
-                               <StyledTableCell align="right">{row.secondSeries}</StyledTableCell>
-                               <StyledTableCell align="right">{row.thirdSeries}</StyledTableCell>
-                               <StyledTableCell align="right">{row.fourthSeries}</StyledTableCell>
-                               <StyledTableCell align="right">{row.fifthSeries}</StyledTableCell>
+                               <StyledTableCell align="center">{row.firstSeries}</StyledTableCell>
+                               <StyledTableCell align="center">{row.secondSeries}</StyledTableCell>
+                               <StyledTableCell align="center">{row.thirdSeries}</StyledTableCell>
+                               <StyledTableCell align="center">{row.fourthSeries}</StyledTableCell>
+                               <StyledTableCell align="center">{row.fifthSeries}</StyledTableCell>
                            </StyledTableRow>
                        ))}
                    </TableBody>
                </Table>
            </TableContainer>
+           <div style={{marginTop:'20px'}}>
+               <ButtonActivate/>
+           </div>
        </div>
     );
 }
