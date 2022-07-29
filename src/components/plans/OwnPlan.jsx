@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from "react";
-import OwnPlanBar from "./OwnPlanBar";
 import OwnPlanDelete from "./OwnPlanDelete";
 import OwnPlanInputs from "./OwnPlanInputs";
 import OwnPlanExerciseList from "./OwnPlanExerciseList";
@@ -56,7 +55,6 @@ const OwnPlan = () => {
 
     return (
         <div>
-            <OwnPlanBar/>
             <OwnPlanDelete deleteAllMeals = {deleteAllMeals}/>
             <OwnPlanInputs addMealsHandler={addMealsHandler} mealName={mealName} calories={calories} setMealName={setMealName} setCalories={setCalories} setCalories2={setCalories2} setCalories3={setCalories3}/>
             <div>
