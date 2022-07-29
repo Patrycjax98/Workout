@@ -91,3 +91,28 @@
 .PreMadePlan_title:hover {
     font-weight: bold;
 }
+
+/*OwnPlan component*/
+.box_button {
+    display: flex;
+    justify-content: flex-end;
+}
+.add_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 40px;
+    background-color: var(--secondary-background-color);
+    padding: 10px;
+    border: 3px solid var(--buttons-color);
+    border-radius: 15px;
+    color: var(--nav-text-color);
+    font-size: 20px;
+}
+.add_button:hover {
+    background-color: var(--buttons-color);
+    border: 3px solid var(--secondary-background-color);
+    border-radius: 15px;
+    color: var(--hover-text-color);
+}
