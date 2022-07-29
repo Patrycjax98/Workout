@@ -2,7 +2,7 @@ import React from 'react';
 import {Table, TableBody, TableContainer, TableHead, TableRow} from "@mui/material";
 import {RiDeleteBin5Line} from "react-icons/ri";
 
-const OwnPlanExerciseList = ({meals, deleteMealHandler}) => {
+const OwnPlanExerciseList = ({exercises, deleteExerciseHandler}) => {
 
 
     return (
@@ -19,15 +19,15 @@ const OwnPlanExerciseList = ({meals, deleteMealHandler}) => {
                         </TableRow>
                     </TableHead>
                     <TableBody style={{backgroundColor: '#21222D',color: '#FFFFFF',fontSize: '25px'}}>
-                        {meals?.map((meal, index) =>(
+                        {exercises?.map((exercise, index) =>(
                             <TableRow key={index}>
-                                <td align="center">{meal.mealName}</td>
-                                <td align="center">{meal.calories}</td>
-                                <td align="center">{meal.calories2}</td>
-                                <td align="center">{meal.calories3}</td>
+                                <td align="center">{exercise.exerciseName}</td>
+                                <td align="center">{exercise.series}</td>
+                                <td align="center">{exercise.series2}</td>
+                                <td align="center">{exercise.series3}</td>
                                 <td align="center">
                                     <div style={{display:'flex', alignContent:'center', justifyContent:'center'}}>
-                                        <RiDeleteBin5Line onClick={()=>deleteMealHandler(meal.id)}/>
+                                        <RiDeleteBin5Line onClick={()=>deleteExerciseHandler(exercise.id)}/>
                                     </div>
                                 </td>
                             </TableRow>

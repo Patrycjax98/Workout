@@ -1,10 +1,10 @@
 import React from 'react';
 import './Plan.css'
 
-const OwnPlanDelete = ({deleteAllMeals}) => {
+const OwnPlanDelete = ({deleteAllExercises}) => {
     return (
         <div>
-            <button className="buttonOwnPlan" onClick={()=>deleteAllMeals()}>New PLan</button>
+            <button className="buttonOwnPlan" onClick={()=>deleteAllExercises()}>New PLan</button>
 
         </div>
     )

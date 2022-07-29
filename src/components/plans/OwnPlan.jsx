@@ -6,59 +6,59 @@ import OwnPlanExerciseList from "./OwnPlanExerciseList";
 
 
 const OwnPlan = () => {
-    const [meals, setMeals] = useState([]);
-    const [mealName, setMealName] = useState("")
-    const [calories, setCalories] = useState(0);
-    const [calories2, setCalories2] = useState(0);
-    const [calories3, setCalories3] = useState(0);
+    const [exercises, setExercises] = useState([]);
+    const [exerciseName, setExerciseName] = useState("")
+    const [series, setSeries] = useState(0);
+    const [series2, setSeries2] = useState(0);
+    const [series3, setSeries3] = useState(0);
 
-    const addMealsHandler = () => {
-        const oldMeal = meals ? [...meals] :[];
-        const meal = {
-            mealName,
-            calories,
-            calories2,
-            calories3
+    const addExercisesHandler = () => {
+        const oldExercise = exercises ? [...exercises] :[];
+        const exercise = {
+            exerciseName,
+            series,
+            series2,
+            series3
         };
-        const newMeals = oldMeal.concat(meal);
-        setMeals(newMeals)
+        const newExercises = oldExercise.concat(exercise);
+        setExercises(newExercises)
 
-        if(calories <= 0 || mealName === "" || calories2 <= 0 || calories3 <= 0){
+        if(series <= 0 || exerciseName === "" || series2 <= 0){
             alert("must not be empty")
         }else {
-            setMeals(newMeals);
-            localStorage.setItem("meals", JSON.stringify(newMeals));
+            setExercises(newExercises);
+            localStorage.setItem("exercises", JSON.stringify(newExercises));
         }
 
-        setMealName("")
-        setCalories(0)
-        setCalories2(0)
-        setCalories3(0)
+        setExerciseName("")
+        setSeries(0)
+        setSeries2(0)
+        setSeries3(0)
 
     };
 
-    const deleteMealHandler = (id) => {
-        const oldMeals = [...meals];
-        const newMeals = oldMeals.filter((meal)=>meal.id !==id);
+    const deleteExerciseHandler = (id) => {
+        const oldExercises = [...exercises];
+        const newExercises = oldExercises.filter((exercise)=>exercise.id !==id);
 
-        setMeals(newMeals);
-        localStorage.setItem("meals", JSON.stringify(newMeals));
+        setExercises(newExercises);
+        localStorage.setItem("exercises", JSON.stringify(newExercises));
     };
-    const deleteAllMeals = () => {
-        setMeals([]);
+    const deleteAllExercises = () => {
+        setExercises([]);
         localStorage.clear();
     }
     useEffect(() =>{
-        const localStorageMeals = JSON.parse(localStorage.getItem("meals"));
-        setMeals(localStorageMeals);
-    },[setMeals]);
+        const localStorageExercises = JSON.parse(localStorage.getItem("exercises"));
+        setExercises(localStorageExercises);
+    },[setExercises]);
 
     return (
         <div>
-            <OwnPlanDelete deleteAllMeals = {deleteAllMeals}/>
-            <OwnPlanInputs addMealsHandler={addMealsHandler} mealName={mealName} calories={calories} setMealName={setMealName} setCalories={setCalories} setCalories2={setCalories2} setCalories3={setCalories3}/>
+            <OwnPlanDelete deleteAllExercises = {deleteAllExercises}/>
+            <OwnPlanInputs addExercisesHandler={addExercisesHandler} exerciseName={exerciseName} series={series} setExerciseName={setExerciseName} setSeries={setSeries} setSeries2={setSeries2} setSeries3={setSeries3}/>
             <div>
-                <OwnPlanExerciseList meals={meals} deleteMealHandler={deleteMealHandler}/>
+                <OwnPlanExerciseList exercises={exercises} deleteExerciseHandler={deleteExerciseHandler}/>
             </div>
         </div>
     )
