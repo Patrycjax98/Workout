@@ -44,21 +44,21 @@
   "exercise": [
     {
       "id": 1,
-      "name":"Jump Squat",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/12/180-jump-squat-exercise-illustration-spotebi.gif",
-      "bodyPart": "Legs"
+      "name":"Bicep Curls",
+      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/biceps-curl-exercise-illustration.gif",
+      "bodyPart": "Biceps"
     },
     {
       "id": 2,
-      "name":"Alternating Dumbbell Swing",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/04/alternating-dumbbell-swing-exercise-illustration-spotebi.gif",
-      "bodyPart": "Legs"
+      "name":"Tricep Dips",
+      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2015/04/tricep-dips-exercise-illustration-spotebi.gif",
+      "bodyPart": "Triceps"
     },
     {
       "id": 3,
-      "name":"Burpees",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/burpees-exercise-illustration.gif",
-      "bodyPart": "Legs"
+      "name":"Arnold Shoulder Press",
+      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/04/arnold-shoulder-press-exercise-illustration-spotebi.gif",
+      "bodyPart": "Arm"
     },
     {
       "id": 4,
@@ -80,15 +80,15 @@
     },
     {
       "id": 7,
-      "name":"Double Pulse Squat Jump",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2017/06/double-pulse-squat-jump-exercise-illustration-spotebi.gif",
-      "bodyPart": "Legs"
+      "name":"Concentration Curl",
+      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/03/concentration-curl-exercise-illustration-spotebi.gif",
+      "bodyPart": "Biceps"
     },
     {
       "id": 8,
-      "name":"Dumbbell Thrusters",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2015/04/dumbbell-thrusters-exercise-illustration.gif",
-      "bodyPart": "Legs"
+      "name":"Dumbbell Chest Press",
+      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2015/04/dumbbell-chest-press-exercise-illustration.gif",
+      "bodyPart": "Chest"
     },
     {
       "id": 9,
@@ -98,33 +98,33 @@
     },
     {
       "id": 10,
-      "name":"Good Mornings",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2017/07/good-mornings-exercise-illustration.gif",
-      "bodyPart": "Legs"
+      "name":"Push Up",
+      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/push-up-exercise-illustration.gif",
+      "bodyPart": "Chest"
     },
     {
       "id": 11,
-      "name":"Lunges",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/lunges-exercise-illustration.gif",
-      "bodyPart": "Legs"
+      "name":"Bow And Arrow Squat Pull",
+      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/03/bow-and-arrow-squat-pull-exercise-illustration-spotebi.gif",
+      "bodyPart": "Back"
     },
     {
       "id": 12,
-      "name":"Step Up With Knee Raise",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2015/05/step-up-with-knee-raise-exercise-illustration-spotebi.gif",
-      "bodyPart": "Legs"
+      "name":"Reverse Crunches",
+      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/reverse-crunches-exercise-illustration.gif",
+      "bodyPart": "Abs"
     },
     {
       "id": 13,
-      "name":"Surrender",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/02/surrender-exercise-illustration-spotebi.gif",
-      "bodyPart": "Legs"
+      "name":"Dumbbell Bent Over Row",
+      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/dumbbell-bent-over-row-exercise-illustration.gif",
+      "bodyPart": "Back"
     },
     {
       "id": 14,
-      "name":"Wall Sit",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2015/05/wall-sit-exercise-illustration.gif",
-      "bodyPart": "Legs"
+      "name":"Dumbbell Front Raise",
+      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/dumbbell-front-raise-exercise-illustration.gif",
+      "bodyPart": "Arm"
     },
     {
       "id": 15,
@@ -137,120 +137,7 @@
       "name":"Ankle Tap Push Ups",
       "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/07/ankle-tap-push-ups-exercise-illustration-spotebi.gif",
       "bodyPart": "Abs"
-    },
-    {
-      "id": 17,
-      "name":"Bicycle Crunches",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/bicycle-crunches-exercise-illustration.gif",
-      "bodyPart": "Abs"
-    },
-    {
-      "id": 18,
-      "name":"Bridge And Twist",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2017/02/bridge-and-twist-exercise-illustration-spotebi.gif",
-      "bodyPart": "Abs"
-    },
-    {
-      "id": 19,
-      "name":"Crunches",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/crunches-exercise-illustration.gif",
-      "bodyPart": "Abs"
-    },
-    {
-      "id": 20,
-      "name":"Alternate Heel Touchers",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/alternate-heel-touchers-exercise-illustration.gif",
-      "bodyPart": "Abs"
-    },
-    {
-      "id": 21,
-      "name":"Knee Hugs",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/02/knee-hugs-exercise-illustration-spotebi.gif",
-      "bodyPart": "Abs"
-    },
-    {
-      "id": 22,
-      "name":"Plank",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/plank-exercise-illustration.gif",
-      "bodyPart": "Abs"
-    },
-    {
-      "id": 23,
-      "name":"Bicep Curls",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/biceps-curl-exercise-illustration.gif",
-      "bodyPart": "Biceps"
-    },
-    {
-      "id": 24,
-      "name":"Concentration Curl",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/03/concentration-curl-exercise-illustration-spotebi.gif",
-      "bodyPart": "Biceps"
-    },
-    {
-      "id": 25,
-      "name":"Hammer Curls",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2015/04/hammer-curls-exercise-illustration.gif",
-      "bodyPart": "Biceps"
-    },
-    {
-      "id": 26,
-      "name":"Up Down Plank",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/04/up-down-plank-exercise-illustration-spotebi.gif",
-      "bodyPart": "Biceps"
-    },
-    {
-      "id": 27,
-      "name":"Butterfly Dips",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/12/butterfly-dips-exercise-illustration-spotebi.gif",
-      "bodyPart": "Triceps"
-    },
-    {
-      "id": 28,
-      "name":"Lying Tricep Extension",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2015/04/lying-tricep-extension-exercise-illustration.gif",
-      "bodyPart": "Triceps"
-    },
-    {
-      "id": 29,
-      "name":"Tricep Dips",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2015/04/tricep-dips-exercise-illustration-spotebi.gif",
-      "bodyPart": "Triceps"
-    },
-    {
-      "id": 30,
-      "name":"Dumbbell Triceps Kickback",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/dumbbell-triceps-kickback-exercise-illustration.gif",
-      "bodyPart": "Triceps"
-    },
-    {
-      "id": 31,
-      "name":"Arnold Shoulder Press",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/04/arnold-shoulder-press-exercise-illustration-spotebi.gif",
-      "bodyPart": "Arm"
-    },
-    {
-      "id": 32,
-      "name":"Dumbbell Front Raise",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/dumbbell-front-raise-exercise-illustration.gif",
-      "bodyPart": "Arm"
-    },
-    {
-      "id": 33,
-      "name":"Dumbbell Lateral Raise",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2014/10/dumbbell-lateral-raise-exercise-illustration.gif",
-      "bodyPart": "Arm"
-    },
-    {
-      "id": 34,
-      "name":"Elbow Squeeze Shoulder Press",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/09/elbow-squeeze-shoulder-press-exercise-illustration-spotebi.gif",
-      "bodyPart": "Arm"
-    },
-    {
-      "id": 35,
-      "name":"Bent Over Front Back Punch",
-      "img_exercises":"https://www.spotebi.com/wp-content/uploads/2016/02/bent-over-front-back-punch-exercise-illustration-spotebi.gif",
-      "bodyPart": "Arm"
     }
+
   ]
 }
