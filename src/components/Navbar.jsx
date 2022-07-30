@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <div className='profil'>
-            <div className='profil_name'>NAME</div>
+            {/*<div className='profil_name'>NAME</div>*/}
             <img src={user} className='profil_img' alt='user'/>
         </div>
     )
