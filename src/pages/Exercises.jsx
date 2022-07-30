@@ -184,32 +184,31 @@ function ExerciseNav() {
 
     return (
         <MDBContainer style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
-            <form onSubmit={handleSearch}>
+            <form onSubmit={handleSearch} style={{display:'flex', alignItems:'center'}}>
                 <input
                     type="text"
                     className="form-control"
                     placeholder="Search Exercise..."
                     value={value}
-                    style={{backgroundColor:'#21222D', color:'#387BFF',width:'250px', height:'25px', borderRadius:'10px', marginBottom:'10px'}}
+                    style={{backgroundColor:'#21222D', color:'#387BFF',width:'250px', height:'50px', borderRadius:'10px', fontSize:'20px', border: '3px solid #387BFF'}}
                     onChange={(e) => setValue(e.target.value)}
                 />
 
-                <Button type="submit" >
+                <Button type="submit" style={{fontSize:'20px', border: '3px solid #387BFF', borderRadius:'15px', marginLeft:'20px'}}>
                     Search
                 </Button>
-                <Button onClick={() => handleReset()}>
+                <Button onClick={() => handleReset()} style={{fontSize:'20px', marginLeft:'20px', border: '3px solid #387BFF', borderRadius:'15px'}}>
                     Reset
                 </Button>
             </form>
-            <div style={{border: "3px solid #FFFFFF", borderRadius: 20}}>
+            <div style={{border: "3px solid #FFFFFF", borderRadius: 20, marginTop:'30px'}}>
                 <h2 style={{padding:'13px',justifyContent:'center', display:'flex', backgroundColor:"#387BFF", color:'#000000',borderRadius: '20px 20px 0 0', fontSize:'24px', textTransform:'uppercase'}}>Exercise Directory</h2>
                 <MDBRow>
                     <MDBCol>
                         <MDBTable>
                             <MDBTableHead style={{backgroundColor:'#21222D',color:'#87888C', fontSize:'18px'}}>
                                 <tr>
-                                    <th scope='col' style={{padding:'10px 30px 10px 30px'}}>No.</th>
-                                    <th scope='col' style={{padding:'10px 30px 10px 30px'}}>Exercise</th>
+                                    <th scope='col' style={{padding:'10px 30px 10px 30px', width:'600px'}}>Exercise</th>
                                     <th scope='col' style={{padding:'10px 30px 10px 30px'}}>Body</th>
                                     <th scope='col' style={{padding:'10px 30px 10px 30px'}}>IMG</th>
                                 </tr>
@@ -226,9 +225,8 @@ function ExerciseNav() {
                                 data.map((item, index) => (
                                     <MDBTableBody key={index} style={{fontSize:'18px', color:'#FFFFFF' }}>
                                         <tr>
-                                            <th scope="row">{index+1}</th>
-                                            <td>{item.name}</td>
-                                            <td>{item.bodyPart}</td>
+                                            <td style={{padding:'10px 30px 10px 30px'}}>{item.name}</td>
+                                            <td align='center'>{item.bodyPart}</td>
                                             <td><img src={item.img_exercises} alt='img' style={{height:'100px', borderRadius:'15px',margin:'10px'}}/></td>
                                         </tr>
                                     </MDBTableBody>
