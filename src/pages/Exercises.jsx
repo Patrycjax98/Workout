@@ -31,7 +31,6 @@ function ExerciseNav() {
         end,
         increase,
         optType = null,
-        filterOrSortValue
     ) => {
         switch (optType) {
             case "search":
@@ -45,30 +44,7 @@ function ExerciseNav() {
                         setCurrentPage(currentPage + increase);
                     })
                     .catch((err) => console.log(err));
-            case "sort":
-                setOperation(optType);
-                setSortFilterValue(filterOrSortValue);
-                return await axios
-                    .get(
-                        `http://localhost:8000/exercise?_sort=${filterOrSortValue}&_order=asc&_start=${start}&_end=${end}`
-                    )
-                    .then((response) => {
-                        setData(response.data);
-                        setCurrentPage(currentPage + increase);
-                    })
-                    .catch((err) => console.log(err));
-            case "filter":
-                setOperation(optType);
-                setSortFilterValue(filterOrSortValue);
-                return await axios
-                    .get(
-                        `http://localhost:8000/exercise?status=${filterOrSortValue}&_order=asc&_start=${start}&_end=${end}`
-                    )
-                    .then((response) => {
-                        setData(response.data);
-                        setCurrentPage(currentPage + increase);
-                    })
-                    .catch((err) => console.log(err));
+
             default:
                 return await axios
                     .get(`http://localhost:8000/exercise?_start=${start}&_end=${end}`)
