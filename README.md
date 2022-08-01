@@ -30,7 +30,7 @@ Run the app
 npm start
 ```
 
-##Screenshots
+## Screenshots
 Home
 ![App Screenshot](images/screenHome.png)
 
